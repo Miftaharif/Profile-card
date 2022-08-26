@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    max-width: 100%;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-position: right 48vw bottom 15vh, top 50vh left 45vw ;
+    background-repeat: no-repeat;
+
+}
+
+.container {
+    margin: auto;
+    max-width: 360px;
+    height: 390px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 200px;
+    position: relative;
+}
+
+
+.wrapper img{
+    border-radius: 10px 10px 0px 0px;
+    width: 360px;
+}
+
+.content > img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 5px solid white;
+    display: block;
+    margin-top: -125px;
+    margin-left: 125px;
+    position: absolute;
+}
+
+.text {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.text > h2 > span {
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+    
+}
+
+.text > p {
+    color: hsl(0, 0%, 59%);
+    margin-top: -15px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid hsl(0, 0%, 59%, .4);
+
+}
+
+.num {
+    padding: 20px;
+    font-weight: 700;
+}
+
+.num > p {
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+}
